@@ -1,3 +1,5 @@
+import "./style.css";
+import Sign from "./img/sign.svg";
 const Personal = () => {
   return (
     <section class="personal__area">
@@ -8,16 +10,16 @@ const Personal = () => {
             <ul>
               <li>
                 <p class="personal__area-text">
-                  <img src="img/sign.svg" alt="№" />
+                  <img src={Sign} alt="№" />
                   Оплачивайте квитанции и страховые взносы без комиссии
                 </p>
                 <p class="personal__area-text">
-                  <img src="img/sign.svg" alt="№" />
+                  <img src={Sign} alt="№" />
                   Передавайте показания счётчиков в пару кликов не выходя из
                   дома
                 </p>
                 <p class="personal__area-text">
-                  <img src="img/sign.svg" alt="№" />
+                  <img src={Sign} alt="№" />
                   Смотрите историю начислений и платежей в электронном виде
                 </p>
               </li>

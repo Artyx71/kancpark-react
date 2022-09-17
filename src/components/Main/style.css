@@ -1,0 +1,21 @@
+.main {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 64px;
+  margin-bottom: 198px;
+}
+
+.main__content {
+}
+
+.main__text {
+}
+
+.main__green {
+  color: #00a00b;
+  display: block;
+}
+
+.main__linespace {
+  display: block;
+}

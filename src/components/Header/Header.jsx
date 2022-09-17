@@ -1,10 +1,12 @@
+import "./style.css";
+import Logo from "./img/logo.png";
 const Header = () => {
   return (
     <header class="header">
       <div class="container">
         <div class="header__inner">
           <div class="header__right">
-            <img class="header__logo" src="img/logo.png" alt="" />
+            <img class="header__logo" src={Logo} alt="" />
             <nav class="header__navigation">
               <ul class="header__list">
                 <li class="header__list-item">
