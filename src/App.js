@@ -3,6 +3,8 @@ import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 import Personal from "./components/Personal/Personal";
 import Properties from "./components/Properties/Properties";
+import Articles from "./components/Articles/Articles";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Main />
       <Properties />
       <Personal />
+      <Articles />
+      <Footer />
     </div>
   );
 }
