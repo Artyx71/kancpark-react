@@ -44,6 +44,7 @@ ul li {
   width: 32px;
   height: 32px;
   float: left;
+  margin: 0px 5px 0px 0px;
 }
 
 .personal__area-right {
