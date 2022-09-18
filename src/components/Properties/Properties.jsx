@@ -1,7 +1,7 @@
 import "./style.css";
-import Vavilova from "./img/vavilova.png";
-import Lucky from "./img/lucky.png";
-import West from "./img/west.png";
+import Vavilova from "../../img/vavilova.png";
+import Lucky from "../../img/lucky.png";
+import West from "../../img/west.png";
 const Properties = () => {
   return (
     <section class="properties">

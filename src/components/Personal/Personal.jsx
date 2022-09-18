@@ -1,5 +1,5 @@
 import "./style.css";
-import Sign from "./img/sign.svg";
+import Sign from "../../img/sign.svg";
 const Personal = () => {
   return (
     <section class="personal__area">
