@@ -1,20 +1,16 @@
 import "./App.css";
-import Header from "./components/Header/Header";
-import Main from "./components/Main/Main";
-import Personal from "./components/Personal/Personal";
-import Properties from "./components/Properties/Properties";
-import Articles from "./components/Articles/Articles";
-import Footer from "./components/Footer/Footer";
+import { RouteManager } from "./RouteManager";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Layout from "./components/Layout";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Main />
-      <Properties />
-      <Personal />
-      <Articles />
-      <Footer />
+      <Router>
+        <Layout>
+          <RouteManager />
+        </Layout>
+      </Router>
     </div>
   );
 }
